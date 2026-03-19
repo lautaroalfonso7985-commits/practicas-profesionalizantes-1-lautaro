@@ -1,2 +1,287 @@
 # practicas-profesionalizantes-1-lautaro
-coamsncomwommkawnicnpawcmkmiwak ii laocnwlca
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Página profesional de Lautaro Alfonso - Servicios de desarrollo web, mantenimiento y soporte técnico. Prácticas Profesionalizantes 1.">
+   <meta name="keywords" content="desarrollo web, mantenimiento web, diseño web, soporte técnico, servicios web">
+   <meta name="author" content="Lautaro Alfonso">
+   <meta name="robots" content="index, follow">
+   <meta property="og:title" content="Mi Página Web - Lautaro Alfonso">
+   <meta property="og:description" content="Servicios profesionales de desarrollo web y mantenimiento">
+   <meta property="og:type" content="website">
+   <title>Mi Página Web - Lautaro Alfonso - 19/03/2026</title>
+   
+   <style>
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #3b3939;
+        }
+         header {
+            background-color: #05b607;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+         nav {
+            background-color: #333;
+            padding: 0.5rem;
+        }
+         nav a {
+            color: rgb(31, 192, 25);
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        nav a:hover {
+            background-color: #000000;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            border-left: 4px solid #05b607;
+        }
+        
+        .servicios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 1rem 0;
+        }
+        
+        .servicio-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-top: 3px solid #05b607;
+        }
+        
+        .servicio-card h3 {
+            color: #05b607;
+            margin-bottom: 0.5rem;
+        }
+        
+        .formulario-contacto {
+            max-width: 500px;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .formulario-contacto input,
+        .formulario-contacto textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0 1rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+        }
+        
+        .formulario-contacto button {
+            background-color: #05b607;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .formulario-contacto button:hover {
+            background-color: #048a06;
+        }
+        
+        .mensaje-exito {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            border: 1px solid #c3e6cb;
+        }
+        
+        footer {
+            background-color: #08bd08;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Mi Página Web!</h1>
+        <p>Me llamo Lautaro Alfonso - Prácticas Profesionalizantes 1</p>
+    </header>
+    
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#características">Características</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <main>
+        <section id="inicio">
+            <h2>🚀 Bienvenido</h2>
+            <p>¡Hola profesor! Gracias por visitar mi página web de Prácticas Profesionalizantes 1. Esta página ha sido diseñada para mostrar mis habilidades en desarrollo web y mantenimiento de sitios.</p>
+            <p>En esta página encontrarás información sobre los servicios que ofrezco, mis características profesionales y un formulario de contacto para cualquier consulta.</p>
+        </section>
+        
+        <section id="acerca">
+            <h2>📋 Acerca de Mí</h2>
+            <p>Me llamo <strong>Lautaro Alfonso</strong> y soy estudiante de Prácticas Profesionalizantes 1. Tengo experiencia en:</p>
+            <ul>
+                <li>Diseño y desarrollo de sitios web responsivos</li>
+                <li>Mantenimiento y actualización de contenido web</li>
+                <li>Optimización de rendimiento web</li>
+                <li>Soporte técnico y resolución de problemas</li>
+                <li>Implementación de mejores prácticas en desarrollo</li>
+            </ul>
+            <p>Mi objetivo es proporcionar soluciones web de calidad que cumplan con los estándares más altos de la industria.</p>
+        </section>
+        
+        <section id="servicios">
+            <h2>💼 Servicios Ofrecidos</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <h3>🔧 Mantenimiento Web</h3>
+                    <p>Actualización regular de contenido, corrección de errores, y asegurar que tu sitio funcione perfectamente.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>⚡ Optimización</h3>
+                    <p>Mejora del rendimiento, velocidad de carga, y experiencia de usuario en tu sitio web.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>🛡️ Seguridad</h3>
+                    <p>Implementación de medidas de seguridad para proteger tu sitio web de amenazas.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>💬 Soporte Técnico</h3>
+                    <p>Asistencia técnica disponible para resolver cualquier problema que surja en tu sitio.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>📱 Diseño Responsivo</h3>
+                    <p>Sitios web que se adaptan perfectamente a dispositivos móviles y de escritorio.</p>
+                </div>
+                <div class="servicio-card">
+                    <h3>📊 Analytics</h3>
+                    <p>Seguimiento y análisis del comportamiento de visitantes en tu sitio web.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="características">
+            <h2>⭐ Características Principales</h2>
+            <h3>Por qué elegir mis servicios:</h3>
+            <ul>
+                <li><strong>Experiencia Profesional:</strong> Estudiante de análisis de sistemas</li>
+                <li><strong>Atención al Detalle:</strong> Cuidado meticuloso en cada proyecto</li>
+                <li><strong>Disponibilidad:</strong> Soporte técnico disponible cuando lo necesites</li>
+                <li><strong>Calidad:</strong> Cumplimiento de estándares web internacionales</li>
+                <li><strong>Comunicación:</strong> Mantengo informado al cliente en cada etapa</li>
+                <li><strong>Mejora Continua:</strong> Actualización constante de habilidades y conocimientos</li>
+            </ul>
+            
+            <h3>Tecnologías Utilizadas:</h3>
+            <p>HTML5, CSS3, JavaScript, Git, y herramientas modernas de desarrollo web.</p>
+        </section>
+        
+        <section id="contacto">
+            <h2>📞 Contacto</h2>
+            <p>¿Tienes alguna pregunta o necesitas mis servicios? ¡Contáctame!</p>
+            
+            <div class="formulario-contacto">
+                <h3>Envíame un mensaje</h3>
+                <div class="mensaje-exito" id="mensajeExito">✅ ¡Mensaje enviado! Se abrirá WhatsApp en un momento.</div>
+                <form id="formularioContacto">
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+                    <textarea rows="5" id="mensaje" name="mensaje" placeholder="Tu mensaje aquí..." required></textarea>
+                    <button type="submit">Enviar Mensaje por WhatsApp</button>
+                </form>
+            </div>
+            
+            <h3 style="margin-top: 2rem;">Otros Medios de Contacto:</h3>
+            <ul>
+                <li>📱 <strong>Teléfono:</strong> 1153876210</li>
+                <li>📧 <strong>Instagram:</strong> @Lautaroalfonso</li>
+                <li>💬 <strong>Disponibilidad:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</li>
+                <li>⏱️ <strong>Tiempo de Respuesta:</strong> Generalmente dentro de 24 horas</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script>
+        document.getElementById('formularioContacto').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Obtener los valores del formulario
+            const nombre = document.getElementById('nombre').value;
+            const email = document.getElementById('email').value;
+            const asunto = document.getElementById('asunto').value;
+            const mensaje = document.getElementById('mensaje').value;
+            
+            // Construir el mensaje para WhatsApp
+            const textoWhatsApp = `*NUEVO MENSAJE DE CONTACTO*%0A%0A` +
+                `*Nombre:* ${nombre}%0A` +
+                `*Email:* ${email}%0A` +
+                `*Asunto:* ${asunto}%0A%0A` +
+                `*Mensaje:%0A*${mensaje}`;
+            
+            // Número de WhatsApp (Argentina: Lautaro Alfonso)
+            const numeroWhatsApp = '541153876210';
+            
+            // Crear URL de WhatsApp
+            const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${textoWhatsApp}`;
+            
+            // Mostrar mensaje de éxito
+            document.getElementById('mensajeExito').style.display = 'block';
+            
+            // Limpiar formulario
+            this.reset();
+            
+            // Abrir WhatsApp después de 1 segundo
+            setTimeout(() => {
+                window.open(urlWhatsApp, '_blank');
+            }, 1000);
+            
+            // Ocultar mensaje después de 5 segundos
+            setTimeout(() => {
+                document.getElementById('mensajeExito').style.display = 'none';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
+

@@ -149,7 +149,7 @@ pagina profesional.index.html
     <main>
         <section id="inicio">
             <h2>🚀 Bienvenido</h2>
-            <p>¡Hola profesor! Gracias por visitar mi página web de Prácticas Profesionalizantes 1. Esta página ha sido diseñada para mostrar mis habilidades en desarrollo web y mantenimiento de sitios.</p>
+            <p>¡Hola Usuario! Gracias por visitar mi página web de Prácticas Profesionalizantes 1. Esta página ha sido diseñada para mostrar mis habilidades en desarrollo web y mantenimiento de sitios.</p>
             <p>En esta página encontrarás información sobre los servicios que ofrezco, mis características profesionales y un formulario de contacto para cualquier consulta.</p>
         </section>
         
